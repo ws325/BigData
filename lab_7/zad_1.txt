@@ -1,0 +1,1 @@
+Indeksowanie zostało usunięte od wersji 3.0. Można użyć zamiast tego plików ORC, które same w sobie mają indeksację lub zamiast Hive użyć np. SQLite, gdzie indeksacja jest wbudowana.
