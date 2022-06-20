@@ -1,0 +1,16 @@
+Modelowanie danych - jest to proces polegający na tworzenia schematów oraz analizowaniu danych zebranych w hurtowni danych
+
+Cardinality - określenie odnoszące się częstości do występowania danych:
+- high cardinality (dana wartość występuje rzadko)
+- normal cardinality (wartość występuje rzadko, ale więcej niż 1 raz)
+- low cardinality (wartość pojawia się często)
+
+Normalizacja - proces polegający na porządkowaniu danych, poprzez usuwanie nadmiarowych danych. Składa się z wielu etapów, których celem jest ustawienie danych w formie tabelarycznej oraz usuwa zduplikowanych wartości z tabel relacyjnych. Ma na celu przyśpieszenie procesu analizy. 
+
+Denormalizacja - wprowadzenie kontrolowanej nadmierności do bazy danych w celu przyspieszenia wykonywania na niej operacji, pozwala na uniknięcie kosztownych operacji łączeń tabel.
+
+Datamart (Tematyczna Hurtownia Danych) - używana z reguły przez jeden wydział i dane w niej zawarte dotyczą jednego konkretnego tematu biznesowego.
+Zapewnienia wsparcie procesu podejmowania decyzji osobom odpowiedzialnym za konkretny obszar biznesowy.
+
+OLAP (Online Analytical Processing) - to struktura danych, stanowiąca alternatywę dla relacyjnych baz danych - pozwala pokonać ograniczenia relacyjnych baz danych, umożliwiając szybką analizę danych 
+z wielu baz danych w tym samym czasie oraz ekstrakcję danej części. OLAP są podzielone na kostki.
